@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
@@ -32,11 +33,11 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-slate-900 mb-6">Quick Links</h4>
             <ul className="space-y-4">
-              <li><a href="#" className="text-slate-500 hover:text-brand-blue transition-colors">Our Products</a></li>
-              <li><a href="#" className="text-slate-500 hover:text-brand-blue transition-colors">Sourcing Network</a></li>
-              <li><a href="#" className="text-slate-500 hover:text-brand-blue transition-colors">Quality Assurance</a></li>
-              <li><a href="#" className="text-slate-500 hover:text-brand-blue transition-colors">Logistics</a></li>
-              <li><a href="#" className="text-slate-500 hover:text-brand-blue transition-colors">Contact Us</a></li>
+              <li><Link to="/catalog" className="text-slate-500 hover:text-brand-blue transition-colors">Our Products</Link></li>
+              <li><Link to="/sourcing" className="text-slate-500 hover:text-brand-blue transition-colors">Sourcing Network</Link></li>
+              <li><Link to="/resources" className="text-slate-500 hover:text-brand-blue transition-colors">Resources & Guides</Link></li>
+              <li><Link to="/partner" className="text-slate-500 hover:text-brand-blue transition-colors">Partner With Us</Link></li>
+              <li><Link to="/cart" className="text-slate-500 hover:text-brand-blue transition-colors">My Inquiry</Link></li>
             </ul>
           </div>
 

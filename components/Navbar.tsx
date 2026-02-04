@@ -35,12 +35,12 @@ const Navbar: React.FC = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/catalog" className="text-slate-600 hover:text-brand-blue font-medium transition-colors">Products</Link>
-            <a href="/#sourcing" className="text-slate-600 hover:text-brand-blue font-medium transition-colors">Sourcing</a>
+            <Link to="/sourcing" className="text-slate-600 hover:text-brand-blue font-medium transition-colors">Sourcing</Link>
             <a href="/#process" className="text-slate-600 hover:text-brand-blue font-medium transition-colors">Process</a>
             <div className="relative group">
-              <button className="flex items-center text-slate-600 hover:text-brand-blue font-medium transition-colors">
+              <Link to="/resources" className="flex items-center text-slate-600 hover:text-brand-blue font-medium transition-colors">
                 Resources <ChevronDown className="ml-1 w-4 h-4" />
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
               <span className="text-sm">EN</span>
             </button>
             
-            <button onClick={() => navigate('/catalog')} className="bg-brand-blue text-white px-6 py-2.5 rounded-full font-semibold shadow-lg hover:shadow-brand-blue/30 hover:-translate-y-0.5 transition-all duration-300">
+            <button onClick={() => navigate('/partner')} className="bg-brand-blue text-white px-6 py-2.5 rounded-full font-semibold shadow-lg hover:shadow-brand-blue/30 hover:-translate-y-0.5 transition-all duration-300">
               Partner With Us
             </button>
           </div>
@@ -93,11 +93,11 @@ const Navbar: React.FC = () => {
           >
             <div className="px-4 pt-4 pb-8 space-y-4">
               <Link to="/catalog" onClick={() => setIsOpen(false)} className="block text-lg font-medium text-slate-700 hover:text-brand-blue">Products</Link>
-              <a href="/#sourcing" onClick={() => setIsOpen(false)} className="block text-lg font-medium text-slate-700 hover:text-brand-blue">Sourcing</a>
-              <a href="/#process" onClick={() => setIsOpen(false)} className="block text-lg font-medium text-slate-700 hover:text-brand-blue">Process</a>
+              <Link to="/sourcing" onClick={() => setIsOpen(false)} className="block text-lg font-medium text-slate-700 hover:text-brand-blue">Sourcing</Link>
+              <Link to="/resources" onClick={() => setIsOpen(false)} className="block text-lg font-medium text-slate-700 hover:text-brand-blue">Resources</Link>
               <Link to="/cart" onClick={() => setIsOpen(false)} className="block text-lg font-medium text-slate-700 hover:text-brand-blue">My Quote ({cartCount})</Link>
-              <button onClick={() => { setIsOpen(false); navigate('/catalog'); }} className="w-full mt-4 bg-brand-blue text-white py-3 rounded-xl font-bold shadow-md">
-                View Catalog
+              <button onClick={() => { setIsOpen(false); navigate('/partner'); }} className="w-full mt-4 bg-brand-blue text-white py-3 rounded-xl font-bold shadow-md">
+                Partner With Us
               </button>
             </div>
           </motion.div>

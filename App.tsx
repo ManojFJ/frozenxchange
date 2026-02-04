@@ -6,6 +6,9 @@ import Home from './pages/Home';
 import Catalog from './pages/Catalog';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
+import Sourcing from './pages/Sourcing';
+import Resources from './pages/Resources';
+import Partner from './pages/Partner';
 import { CartProvider } from './context/CartContext';
 
 // Scroll to top on route change
@@ -30,6 +33,9 @@ function App() {
               <Route path="/catalog" element={<Catalog />} />
               <Route path="/product/:id" element={<ProductDetails />} />
               <Route path="/cart" element={<Cart />} />
+              <Route path="/sourcing" element={<Sourcing />} />
+              <Route path="/resources" element={<Resources />} />
+              <Route path="/partner" element={<Partner />} />
             </Routes>
           </main>
           <Footer />
