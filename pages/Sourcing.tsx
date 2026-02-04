@@ -8,7 +8,7 @@ const sourcingRegions = [
     state: "Uttar Pradesh",
     speciality: "Buffalo Meat",
     plants: 12,
-    image: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=600",
     description: "Home to India's largest APEDA-approved integrated slaughterhouses producing premium halal buffalo meat for global markets.",
     certifications: ["Halal", "ISO 22000", "APEDA"]
   },
@@ -16,7 +16,7 @@ const sourcingRegions = [
     state: "Andhra Pradesh",
     speciality: "Vannamei Prawns",
     plants: 8,
-    image: "https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&q=80&w=600",
     description: "India's largest aquaculture hub with state-of-the-art shrimp processing facilities meeting EU and FDA standards.",
     certifications: ["BAP", "ASC", "HACCP"]
   },
@@ -24,7 +24,7 @@ const sourcingRegions = [
     state: "West Bengal",
     speciality: "Black Tiger Prawns",
     plants: 6,
-    image: "https://images.unsplash.com/photo-1559825481-12a05cc00344?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1623962570491-a8acc3250b71?auto=format&fit=crop&q=80&w=600",
     description: "Traditional farming regions producing some of the finest Black Tiger prawns with rich flavor and firm texture.",
     certifications: ["BRC", "HACCP", "EU Approved"]
   },
@@ -32,7 +32,7 @@ const sourcingRegions = [
     state: "Kerala",
     speciality: "Marine Fish",
     plants: 5,
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1535402803947-a878d655f52a?auto=format&fit=crop&q=80&w=600",
     description: "Coastal processing units specializing in wild-caught fish varieties including mackerel, tuna, and squid rings.",
     certifications: ["HACCP", "FDA", "MPEDA"]
   },
@@ -40,7 +40,7 @@ const sourcingRegions = [
     state: "Maharashtra",
     speciality: "Poultry & Vegetables",
     plants: 9,
-    image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1587593810167-a84920ea0781?auto=format&fit=crop&q=80&w=600",
     description: "Modern poultry processing and IQF vegetable facilities serving both domestic and international demand.",
     certifications: ["ISO 22000", "Halal", "FSSAI"]
   },
@@ -48,7 +48,7 @@ const sourcingRegions = [
     state: "Punjab",
     speciality: "Frozen Vegetables",
     plants: 4,
-    image: "https://images.unsplash.com/photo-1592317376378-43394608c704?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&q=80&w=600",
     description: "India's breadbasket region producing premium frozen peas, corn, and mixed vegetables with advanced IQF technology.",
     certifications: ["BRC", "ISO 22000", "Organic"]
   }
