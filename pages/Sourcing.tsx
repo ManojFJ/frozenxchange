@@ -24,7 +24,7 @@ const sourcingRegions = [
     state: "West Bengal",
     speciality: "Black Tiger Prawns",
     plants: 6,
-    image: "https://images.unsplash.com/photo-1623962570491-a8acc3250b71?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&q=80&w=600",
     description: "Traditional farming regions producing some of the finest Black Tiger prawns with rich flavor and firm texture.",
     certifications: ["BRC", "HACCP", "EU Approved"]
   },
@@ -32,7 +32,7 @@ const sourcingRegions = [
     state: "Kerala",
     speciality: "Marine Fish",
     plants: 5,
-    image: "https://images.unsplash.com/photo-1535402803947-a878d655f52a?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1536264203436-5919023592e9?auto=format&fit=crop&q=80&w=600",
     description: "Coastal processing units specializing in wild-caught fish varieties including mackerel, tuna, and squid rings.",
     certifications: ["HACCP", "FDA", "MPEDA"]
   },

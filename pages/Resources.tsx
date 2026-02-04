@@ -59,7 +59,7 @@ const blogPosts = [
     title: "Cold Chain Logistics: From Indian Plant to International Port",
     excerpt: "Temperature integrity is everything in frozen food exports. Explore the end-to-end cold chain process from blast freezing at the plant, reefer container loading, port handling, and customs clearance best practices.",
     category: "Education",
-    image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=600",
     date: "Oct 30, 2025",
     readTime: "9 min read",
     author: "Logistics Team"
