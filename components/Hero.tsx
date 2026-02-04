@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-            src="https://picsum.photos/1920/1080?grayscale&blur=2" 
+            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1920"
             alt="Background" 
             className="w-full h-full object-cover opacity-20"
         />
@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
              <div className="relative w-full aspect-square max-w-lg mx-auto">
                 {/* Main Hero Image */}
                 <div className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white rotate-3 hover:rotate-0 transition-transform duration-700">
-                    <img src="https://picsum.photos/800/800?random=1" alt="Premium Seafood" className="w-full h-full object-cover" />
+                    <img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&q=80&w=800" alt="Premium Seafood" className="w-full h-full object-cover" />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-8">
                         <p className="text-white font-serif text-2xl">Premium King Prawns</p>
                         <p className="text-white/80 text-sm">Processed at Source</p>
